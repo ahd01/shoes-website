@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoes Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav id="products">
+      <div class="navTop">
+        <div class="navItem">
+          <img src="./assets/sneakers.png" />
+        </div>
+        <div class="navItem">
+          <div class="search">
+            <input type="text" placeholder="Search..." class="searchInput" />
+            <img
+              src="./assets/search.png"
+              class="searchIcon"
+              width="20"
+              height="20"
+            />
+          </div>
+        </div>
+        <div class="navItem">
+            <div class="cartWrapper">
+                   <div class="cartBtn">
+                      <button><i class="fa-solid fa-cart-shopping"></i></button>
+                   </div>
+            </div>
+            <div class="list"></div>
+        </div>
+        <!-- <div class="card">
+          <h1>Card</h1>
+          <ul class="listCard"></ul>
+          <div class="checkOut"></div>
+          <div class="total">0</div>
+          <div class="closeShopping">Close</div>
+        </div> -->
+      </div>
+      <div class="navBottom">
+        <h3 id="Air Force" class="menuItem">AIR FORCE</h3>
+        <h3 id="Jordan" class="menuItem">JORDAN</h3>
+        <h3 id="Blazer" class="menuItem">BLAZER</h3>
+        <h3 id="Crater" class="menuItem">CRATER</h3>
+        <h3 id="Hippie" class="menuItem">HIPPIE</h3>
+      </div>
+    </nav>
+    <!----------------------SLIDER STARTS------------------------>
+
+     <div class="slider">
+      <div class="sliderWrapper">
+        <div class="sliderItem">
+          <img src="./assets/air.png" class="sliderImage" />
+          <div class="slideBg1"></div>
+          <h1 class="sliderTitle">AIR FORCE</br> NEW</br>SEASON</h1>
+          <h2 class="sliderPrice">119$</h2>
+          <a href="#product">
+            <button class="buyBtn">BUY NOW!</button>
+          </a>
+        </div>
+        <div class="sliderItem">
+            <img src="./assets/jordan.png" class="sliderImage" />
+            <div class="slideBg2"></div>
+            <h1 class="sliderTitle">JORDAN</br> NEW</br>SEASON</h1>
+            <h2 class="sliderPrice">149$</h2>
+            <a href="#product">
+                <button class="buyBtn">BUY NOW!</button>
+            </a>
+          </div>
+          <div class="sliderItem">
+            <img src="./assets/blazer.png" class="sliderImage" />
+            <div class="slideBg3"></div>
+            <h1 class="sliderTitle">BLAZER</br> NEW</br>SEASON</h1>
+            <h2 class="sliderPrice">150$</h2>
+            <a href="#product">
+                <button class="buyBtn">BUY NOW!</button>
+            </a>
+          </div>
+          <div class="sliderItem">
+            <img src="./assets/crater.png" class="sliderImage" />
+            <div class="slideBg4"></div>
+            <h1 class="sliderTitle">CARTER</br> NEW</br>SEASON</h1>
+            <h2 class="sliderPrice">209$</h2>
+            <a href="#product">
+                <button class="buyBtn">BUY NOW!</button>
+            </a>
+          </div>
+          <div class="sliderItem">
+            <img src="./assets/hippie.png" class="sliderImage" />
+            <div class="slideBg5"></div>
+            <h1 class="sliderTitle">HIPPIE</br> NEW</br>SEASON</h1>
+            <h2 class="sliderPrice">99$</h2>
+            <a href="#product">
+            <button class="buyBtn">BUY NOW!</button>
+            </a>
+          </div>
+      </div>
+    </div>
+    <!-------------------------------FEATURS---------------------------------->
+
+     <div class="features">
+        <div class="feature">
+            <img src="./assets/shipping.png" class="featureIcon">
+            <span class="featureTitle">FREE SHIPPING</span>
+            <div class="span featureDesc">Free worlwide shipping on all orders</div>
+        </div>
+        <div class="feature">
+            <img src="./assets/return.png" class="featureIcon">
+            <span class="featureTitle">30 DAYS RETURN</span>
+            <div class="span featureDesc">No question return and easy fund in 14 days</div>
+        </div>
+        <div class="feature">
+            <img src="./assets/gift.png" class="featureIcon">
+            <span class="featureTitle">GIFT CARDS</span>
+            <div class="span featureDesc">Buy gift cards and use coupons easily</div>
+        </div>
+        <div class="feature">
+            <img src="./assets/contact.png" class="featureIcon">
+            <span class="featureTitle">CONTACT US!</span>
+            <div class="span featureDesc">Keep in touch via email and support system</div>
+        </div>
+    </div>
+    <!---------------------PRODUCTS-------------------------->
+    
+      <div class="product" id="product">
+        <img src="./assets/air.png" class="productImage">
+        <div class="productDetails">
+            <h1 class="productTitle">AIR FROCE</h1>
+            <h2 class="productPrice">$199</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                 Optio, ad fugit? Ullam impedit voluptas quos numquam perspiciatis aliquid eveniet neque.</p>
+        
+        <div class="colors">
+            <div class="color"></div>
+            <div class="color"></div>
+        </div>
+        <div class="sizes">
+            <div class="size">42</div>
+            <div class="size">43</div>
+            <div class="size">44</div>
+        </div>
+        <button class="productButton">BUY NOW!</button>
+    </div>
+     </div>
+     <!----------------------GALLERY------------------>
+
+     <div class="gallery">
+        <div class="galleryItem">
+            <h1 class="galleryTitle">BE YOURSELF!</h1>
+            <img class="galleryImg" src="./assets/pexels-photo-9295809.jpeg">
+        </div>
+        <div class="galleryItem">
+            <img class="galleryImg" src="./assets/pexels-photo-10497369.jpeg">
+            <h1 class="galleryTitle">This Is The First Day Of Your New Life!</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">JUST DO IT!</h1>
+            <img class="galleryImg" src="./assets/pexels-photo-1040427.webp">
+        </div>
+     </div>
+
+     <!----------------NEW SEASON-------------------------------->
+
+     <div class="newSeason">
+        <div class="nsItem">
+            <img class="nsImg" src="./assets/pexels-photo-8310743.webp">
+        </div>
+        <div class="nsItem">
+            <h3 class="nsTitleSm">WINTER NEW ARRIVALS</h3>          
+            <h1 class="nsItem">New Season</h1>
+            <h1 class="nsItem">New Collection</h1>
+            <a href="#products">
+                <button class="nsButton">CHOOSE YOUR STYLE</button>
+            </a>  
+        </div>
+        <div class="nsItem">
+            <img class="nsImg" src="./assets/pexels-photo-4753986.webp">
+        </div>
+     </div>
+<!------------------------------------FOOTER--------------------->
+
+<footer>
+    <div class="footerLeft">
+        <div class="footerMenu">
+            <h1 class="fMenuTitle">About Us</h1>
+            <ul class="fMenuList">
+                <li class="fListItem">Company</li>
+                <li class="fListItem">Contact</li>
+                <li class="fListItem">Careers</li>
+                <li class="fListItem">Affiliates</li>
+                <li class="fListItem">Stores</li>
+            </ul>
+        </div>
+        <div class="footerMenu">
+            <h1 class="fMenuTitle">Usefuk Links</h1>
+            <ul class="fMenuList">
+                <li class="fListItem">Support</li>
+                <li class="fListItem">Refund</li>
+                <li class="fListItem">FAQ</li>
+                <li class="fListItem">Feedback</li>
+                <li class="fListItem">Stories</li>
+            </ul>
+        </div>
+        <div class="footerMenu">
+            <h1 class="fMenuTitle">Products</h1>
+            <ul class="fMenuList">
+               <li class="fListItem">Air Force</li>
+                <li class="fListItem">Jordan</li>
+                <li class="fListItem">Blazer</li>
+                <li class="fListItem">Crater</li>
+                <li class="fListItem">Hippie</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footerRight">
+        <div class="footerRightMenu">
+            <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+            <div class="fMail">
+                <input type="email" class="fInput" placeholder="enter your email">
+                <button class="fbutton">Join!</button>
+            </div>
+        </div>
+        <div class="footerRightMenu">
+            <h1 class="fMenuTitle">Follow us!</h1>
+            <div class="fIcons">
+              <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a> 
+              <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a> 
+              <a href="https://www.tiktok.com/en/"><i class="fa-brands fa-tiktok"></i></a>
+              <a href="https://www.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="footerRightMenu">
+            <span class="copyRight">@ahdeslam all rights reserved. 2023.</span>
+        </div>
+    </div>
+</footer>
+    <script src="./js.js"></script>
+  </body>
+</html> 
